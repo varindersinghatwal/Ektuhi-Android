@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/txt1"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Associates and Sponsors"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#0893cf"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_below="@id/txt1" 
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:background="#0784ba"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txt1"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp" >
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_marginTop="5dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/aso" />
+        
+
+        <TextView
+            android:id="@+id/txtv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/imageView1"
+            android:text="Fostinno"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_below="@id/txtv1"
+	        android:layout_width="70dp"
+	        android:layout_height="70dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_centerHorizontal="true"
+	        android:src="@drawable/aso2" />
+        <TextView
+            android:id="@+id/txtv2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/imageView2"
+            android:text="SNA Power – Software and Technology Division : Technology Partner"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        
+         <ImageView
+             android:id="@+id/imageView3"
+	         android:layout_width="100dp"
+	         android:layout_height="50dp"
+	         android:layout_marginTop="15dp"
+	         android:layout_below="@id/txtv2"
+	         android:layout_centerHorizontal="true"
+	         android:src="@drawable/aso3" />
+         <TextView
+             android:text="StartupElves : Technology Partner"
+		     android:layout_width="fill_parent"
+		     android:layout_height="wrap_content"
+		     android:gravity="center"
+		     android:layout_below="@id/imageView3"
+             android:textStyle="bold"
+		     android:textSize="16sp" />
+        
+        
+        
+    </RelativeLayout>
+</RelativeLayout>

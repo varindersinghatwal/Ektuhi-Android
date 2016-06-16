@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    
+    <TextView 
+        android:id="@+id/txt_abt1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#f9a61a"/>
+
+    <TextView
+        android:id="@+id/txt_abt2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt_abt1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#f9a61a" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@id/txt_abt1"
+        android:background="#80000000" >
+        <TextView 
+            android:id="@+id/abt_t1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="ਨਾਨਕ ਪੂਛਿ ਚਲਉ ਗੁਰ ਅਪੁਨੇ ਜਹ ਪ੍ਰਭੁ ਤਹ ਹੀ ਜਾਈਐ ॥" />
+        <TextView 
+            android:layout_below="@id/abt_t1"
+            android:id="@+id/abt_t4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:text="ਧੰਨ ਸ੍ਰੀ ਗੁਰੂ ਗਰੰਥ ਸਾਹਿਬ ਜੀ ਨੂੰ ਸਮਰਪਿਤ ਗੁਰੂ ਜੀ ਦੀ ਸਾਧ ਸੰਗਤ ਜੀਓ ! ਅਸੀਂ ਇਕ ਨਿਮਾਣਾ ਜਿਹਾ ਉਪਰਾਲਾ ਕੀਤਾ ਹੈ ਕਿ ਕਿਸੇ ਨਾ ਕਿਸੇ ਢੰਗ ਅਸੀਂ ਸਾਰੇ ਖ਼ੁਦ ਧੰਨ ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਦੇ ਆਪਣੇ ਜੀਵਨ ਵਿਚ ਇਕ ਵਾਰ ਦਰਸ਼ਨ ਕਰ ਸਕੀਏ ਯਾਨੀ ਖ਼ੁਦ ਪੜ੍ਹ ਅਤੇ ਸਮਝਣ ਦਾ ਯਤਨ ਕਰੀਏ। ਇਸ ਲਈ ਅੱਜ ਦੇ ਜੁੱਗ ਦੇ ਸਾਧਨ ਵਰਤਦਿਆਂ ਪੂਰੇ ਸ੍ਰੀ ਗੁਰੂ ਗਰੰਥ ਸਾਹਿਬ ਜੀ ਦੀ ਬੋਲ ਕੇ ਸੰਥਿਆ ਦੇ ਨਾਲ ਨਾਲ ਇਸ ਦੇ ਅੱਖਰ ਅੱਖਰ ਨੂੰ ‘ਹਾਈਲਾਈਟ’ ਕੀਤਾ ਗਿਆ ਹੈ ਤਾਂ ਕਿ ਸਾਡੀ ਸਮਝ ਸੌਖਿਆਂ ਆ ਸਕੇ। ਸਾਡੀ ਬੇਨਤੀ ਹੈ ਕਿ ਜ਼ਿੰਦਗੀ ਦੀ ਹੋਰ ਭੱਜ-ਦੌੜ ਵਿਚੋਂ ਰੋਜ਼ਾਨਾ ਜੇ ਤੁਸੀਂ ੧੦ ਮਿੰਟ ਵੀ ਦਿਓ ਤਾਂ ਸਾਲ ਦੋ ਸਾਲ ਵਿਚ ਤੁਸੀਂ ਧੰਨ ਸ੍ਰੀ ਗੁਰੂ ਗਰੰਥ ਸਾਹਿਬ ਜੀ ਦੇ ਦਰਸ਼ਨ ਕਰ ਸਕੋਗੇ, ਇਸ ਦੇ ਅਨਮੋਲ ਖ਼ਜ਼ਾਨੇ ਵਿਚੋਂ ਸ਼ਾਇਦ ਕੋਈ ਕੀਮਤੀ ਮੋਤੀ ਸਾਡੀ ਝੋਲੀ ਪੈ ਜਾਣ ਅਤੇ ਸਾਡਾ ਜੀਵਨ ਧੰਨ ਹੋ ਸਕੇ। ਸਾਡਾ ਹੀ ਨਹੀਂ ਆਲੇ ਦੁਆਲੇ ਦਾ, ਪਰਿਵਾਰ ਦਾ ਭਲਾ ਹੋ ਸਕੇ। ਆਉ ਇਸ ਪਿਉ ਦਾਦੇ ਦੇ ਖ਼ਜ਼ਾਨੇ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਦੇਖੀਏ ਅਤੇ ਆਪਣੇ ਅਨਮੋਲ ਜੀਵਨ ਨੂੰ ਧੰਨ ਕਰੀਏ।
+ਸਾਡੀ ਇਹ ਨਿਮਾਣੀ ਕੋਸ਼ਿਸ਼ ਸਫਲ ਹੋਵੇਗੀ ਕਿ ਕੋਈ ਗੁਰਸਿੱਖ ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਨੂੰ ਮੁੱਲ ਦੇ ਪਾਠਾਂ ਦੀ ਬਜਾਇ ਖ਼ੁਦ ਆਪਣੀਆਂ ਅੱਖਾਂ ਰਾਹੀਂ ਦਰਸ਼ਨ ਕਰ ਸਕੇਗਾ। ਗੁਰੂ ਦੇ ਸਿੱਖੋ ਗੁਰੂ ਦਾ ਮੁੱਲ ਨਹੀਂ ਪੈ ਸਕਦਾ ਇਸ ਲਈ ਅਸੀਂ ਆਪ ਗੁਰੂ ਜੀ ਦੇ ਸਨਮੁੱਖ ਹੋਈਏ।" />
+       
+    </RelativeLayout>
+
+</RelativeLayout>

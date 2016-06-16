@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ek Tuhi</string>
+    <string name="action_websearch">Web search</string>
+    <string name="share">Share</string>
+    <string name="favorites">Add to Favorites</string>
+    <string-array name="planets_array">
+        <item>Business</item>
+        <item>Sports</item>
+        <item>Tech</item>
+        <item>World</item>
+        <item>Favorites</item>
+        <item>Sports</item>
+        <item>Entertainment</item>
+        <item>spirituality</item>
+    </string-array>
+    <string-array name="content_array">
+        <item>Happy that AK Antony has accepted mistake: BJP</item>
+        <item>Regret posting Durga Nagpal to Noida, not her suspension: Akhilesh Yadav</item>
+        <item>Rupert Murdoch\'s tabloid depicts Australian PM Kevin Rudd as bumbling Nazi</item>
+        <item>HP: SDM attacked for taking on mining mafia </item>
+        <item>Bihar minister says people join Army to die </item>
+        <item>Pak trader faces death threat for keeping a \'mooch\'</item>
+        <item>SC rejects plea to reopen CBI probe against Maya </item>
+        <item>When Rukmini Devi could have been President of India</item>
+    </string-array>
+    <string name="drawer_open">Open navigation</string>
+    <string name="drawer_close">Close navigation</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>
